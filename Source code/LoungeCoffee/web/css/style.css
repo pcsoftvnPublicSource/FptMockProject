@@ -1,0 +1,343 @@
+
+/*=================================================================
+                            WAREHOUSING
+ *=================================================================*/
+.scrollable-area-tableIngredient {
+    min-height: 50px;
+    max-height: 600px;
+}
+
+.scrollable-area-bill-table {
+    min-height: 50px;
+    max-height: 360px;
+}
+
+/*=================================================================
+                            SHOP REPORT
+ *=================================================================*/
+.scrollable-area-shop-food {
+    min-height: 50px;
+    max-height: 800px;
+}
+
+.shop-list-table-shop {
+    max-height: 280px;
+}
+
+/*=================================================================
+                              FOOD PAGE
+ *=================================================================*/
+.scrollable-area-food {
+    min-height: 50px;
+    max-height: 580px;
+}
+
+.scrollable-area-ingredient {
+    min-height: 50px;
+    max-height: 545px;
+}
+
+.scrollable-area-food-type{
+    min-height: 50px;
+    max-height: 550px;
+}
+
+/*=================================================================
+                              SALE PAGE
+ *=================================================================*/
+
+/*---------------INPUT-------------------------*/
+.inp-sale-add-food {
+    width: 100px;
+    text-align: center;
+}
+
+/*---------------TABLE-------------------------*/
+.scrollable-area-sale-orders {
+    min-height: 80px;
+    max-height: 340px;
+}
+
+/*scrolling table food in sale screen*/
+.scrollable-area-sale-food {
+    min-height: 50px;
+    max-height: 690px;
+}
+
+#th-sale-orders-quantity {
+    width: 100px;
+    text-align: center;
+}
+
+/*---------------PARAGRAPH---------------------*/
+.sale-orders-amount {
+    margin-top: 5px;
+}
+
+.sale-orders-amount * {
+    font-size: 16px;
+}
+
+#par-sale-orders-amount {
+    color: #ea1d24;
+}
+
+/*---------------LINK-------------------------*/
+.lnk-sale-add-food {
+    color: #ea1d24;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.lnk-sale-add-food:HOVER {
+    display: block;
+    text-align: center;
+    background: #ea1d24;
+    text-decoration: none;
+    color: #fafafa;
+    height: auto;
+}
+
+/*---------------DROPDOWN-------------------------*/
+#dpr-sale-food-type {
+    margin-bottom: 20px;
+}
+
+/*---------------ORTHER---------------------------*/
+.sale-alert {
+    display: none;
+    margin-top: -55px;
+    position: absolute;
+    z-index: 10;
+}
+
+/*=================================================================
+                              LOGIN PAGE
+ *=================================================================*/
+.login-bg {
+    margin: 0;
+    padding: 0;
+    background: url("../img/loginBg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    position: fixed;
+    background-size: 100% 100%;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.login-logo {
+    width: 186px;
+    height: 101px;
+    margin: 40px auto 0 auto;
+}
+
+.coffee-cup {
+    width: 517px;
+    margin: 0 auto;
+}
+
+#login-form {
+    margin-top: 50px;
+}
+
+#login-error-message {
+    display: none;
+    margin-top: 20px;
+}
+
+#frm-login .form-control {
+    text-align: center;
+}
+
+/*=================================================================
+                               ELEMENTS
+ *=================================================================*/
+
+/*---------------TABLE-------------------------*/
+.table tbody>tr>td {
+    vertical-align: middle;
+}
+
+/*Set table header background to sticky its header*/
+.table thead {
+    background-color: #faf9f7;
+}
+
+/*Set table scroll-able*/
+.scrollable-table {
+    overflow-x: hidden;
+    overflow-y: visible;
+    border: 1px solid #c7c6c5;
+    border-top: 3px solid #c7c6c5;
+}
+
+/*---------------BUTTON------------------------*/
+.btn.btn-link {
+    color: #ea1d24;
+}
+
+.btn.btn-link:HOVER {
+    background: #ea1d24;
+    color: #fafafa;
+}
+
+.style-button {
+    border-radius: 50px;
+    background-color: transparent;
+    color: #ea1d24;
+    border: 1px solid #ea1d24;
+    height: 35px;
+}
+
+.style-button:HOVER {
+    border-radius: 50px;
+    background-color: #ea1d24;
+    color: #fafafa;
+    border: 1px solid #ea1d24;
+}
+
+.style-button:FOCUS {
+    border-radius: 50px;
+    background-color: transparent;
+    color: #ea1d24;
+    border: 1px solid #ea1d24;
+    height: 35px;
+    outline: none;
+}
+
+/*Override some property*/
+.btn:FOCUS {
+    outline: none;
+}
+   
+ 
+/*=================================================================
+                        MODAL
+ *=================================================================*/
+#inp-cal-value {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.mod-calculator-button {
+    margin-top: 20px;
+}
+
+.btn-number {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn-number:HOVER {
+    background: #2196f3;
+    color: #fafafa;
+}
+
+.delete-icon {
+    font-size: 32px;
+    color: #ea1d24;
+}
+
+.confirm-delete {
+    color: #ea1d24;
+    font-weight: bold;
+}
+
+.page-sub-title {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    color: #ea1d24;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*=================================================================
+                               GENERAL
+ *=================================================================*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 14px;
+    background-color: #faf9f7;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.page-title {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ea1d24;
+    text-transform: uppercase;
+}
+
+
+.form-group label {
+    font-weight: bold;
+}
+
+.request-field {
+    color: #ea1d24;
+}
+
+/*----------------------------------------------------------------
+                               HEADER
+ *----------------------------------------------------------------*/
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #faf6f3;
+    border-bottom: 1px solid #ede3da;
+}
+
+.logo {
+    float: left;
+    margin-top: 15px;
+    margin-left: 140px;
+}
+
+.menu {
+    float: right;
+    margin-right: 140px;
+}
+
+.clear-float {
+    clear: both;
+}
+
+li a {
+    color: #333;
+}
+
+li a.active {
+    color: #ea1d24;
+}
+
+/*----------------------------------------------------------------
+                               FOOTER
+ *----------------------------------------------------------------*/
+.copyright {
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid #ede3da;
+    line-height: 60px;
+    text-align: center;
+    color: #d3b8a7;
+    background: #fbf9f7;
+    position: fixed;
+    bottom: 0;
+}
+
+span.author {
+    color: #ea1d24;
+}
